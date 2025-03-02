@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -46,12 +45,13 @@ func countFairPairs(arr []int, lower int, upper int) int64 {
 	return ans
 }
 
-func main() {
-	// Example test case
-	arr := []int{1, 2, 3, 4, 5}
-	lower := 2
-	upper := 5
-
-	result := countFairPairs(arr, lower, upper)
-	fmt.Println("Count of Fair Pairs:", result)
-}
+//
+//func main() {
+//	// Example test case
+//	arr := []int{1, 2, 3, 4, 5}
+//	lower := 2
+//	upper := 5
+//
+//	result := countFairPairs(arr, lower, upper)
+//	fmt.Println("Count of Fair Pairs:", result)
+//}
